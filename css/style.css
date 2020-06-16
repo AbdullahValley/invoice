@@ -1,0 +1,147 @@
+*{
+	margin: 0;
+	padding: 0;
+}
+
+.container-fluid{
+  padding-left: 0rem;
+  padding-right: 0rem;
+  overflow: hidden;
+}
+#header-section .main-header{
+	height: 47px;
+	background:#FFEB3B;
+}
+#header-section h1{
+    font-size: 52px;
+    text-transform: uppercase;
+    /* position: absolute; */
+    /* top: -26px; */
+    margin-top: -6px;
+    text-align: center;
+}
+.invoice-to p{
+	    font-weight: 600;
+    word-spacing: 2px;
+    letter-spacing: 0px;
+    color: #2c2c2cb5;
+}
+#invoice-details h2{
+	margin-top: 0px;
+}
+#invoice-details .invoice-time{
+	margin-top: 109px;
+}
+#invoice-details h4 span{
+	font-size: 16px;
+	float: right;
+	   
+
+}
+.table>tbody>tr>td, .table>tbody>tr>th, .table>tfoot>tr>td, .table>tfoot>tr>th, .table>thead>tr>td, .table>thead>tr>th{
+	padding: 20px 16px;
+	font-weight: bold;
+}
+.sub-total span{
+	float: right;
+}
+.total-price{
+    background: #ffeb3b;
+    padding: 7px 0 44px 43px;
+    margin-top: 22px;
+    height: 50px;
+    width: 100%;
+    margin-left: 0px;
+}
+.total-price span{
+	padding-left: 73px;
+}
+#footer-section .main-footer{
+	height: 3px;
+	background:#FFEB3B;
+}
+#footer-section .main-footer2{
+	    height: 2px;
+    background: #73736f8c;
+}
+#footer-section .main-footer2 p{
+text-align: center;
+    padding-top: 6px;
+    font-weight: 600;
+}
+.footer-details ul{
+	list-style: none;
+	margin:20px 0;
+}
+.footer-details ul li{
+	display: inline;
+	font-weight: 600;
+	
+}
+.footer-details ul .phone{
+	border-right: 2px solid black;
+	padding-right: 20px;
+}
+.footer-details ul .address{
+	border-right: 2px solid black;
+	padding-right: 20px;
+	padding-left: 20px;
+}
+.footer-details ul .websitee{
+	padding-left: 20px;
+}
+@media only screen and (max-width: 600px) {
+#header-section .main-header {
+    height: 33px;
+    background: #FFEB3B;
+}
+#header-section h1 {
+    font-size: 21px;
+    text-transform: uppercase;
+    /* position: absolute; */
+    /* top: -26px; */
+    margin-top: 4px;
+    /* text-align: center; */
+    margin-left: -25px;
+    font-weight: bold;
+        color: #505050;
+}
+.invoice-to h1{
+	font-size: 27px;
+}
+.invoice-to h2{
+	font-size: 22px;
+}
+#invoice-details .invoice-time {
+    margin-top: 61px;
+}
+.invoice-time h4{
+	font-size: 15px;
+}
+.invoice-to p{
+	font-size: 12px;
+}
+#invoice-details h4 span {
+    font-size: 16px;
+    float: right;
+    padding: 0 8px;
+}
+
+
+.total-price {
+    background: #ffeb3b;
+    padding: 7px 0 44px 43px;
+    margin-top: 22px;
+    height: 50px;
+   width: 100%;
+   margin-left: 0;
+}
+#footer-section .main-footer{
+	background: none;
+	text-align: center;
+}
+.footer-details ul {
+    list-style: none;
+    margin: 20px 40px;
+}
+}
